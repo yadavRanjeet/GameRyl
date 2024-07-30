@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Add this to your global CSS file or inside a style tag */
+.grid-cols-13 {
+  display: grid;
+  grid-template-columns: repeat(13, minmax(0, 1fr));
+}
+
+::-webkit-scrollbar {
+  /* Changed to a thinner width */
+  height: 6px; /* Also set a thinner height for horizontal scrollbars */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 1px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #140934;
+  border-radius: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

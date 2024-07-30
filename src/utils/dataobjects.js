@@ -1,0 +1,142 @@
+export const leaderboardtableData = [
+  {
+    rank: "Rank",
+    name: "Name",
+    TotalBets: "Total Bets",
+    RoyalWins: "Royal Wins",
+  },
+  {
+    rank: "1",
+    name: "John Doe",
+    TotalBets: "1000",
+    RoyalWins: "500",
+  },
+  {
+    rank: "2",
+    name: "Jane Doe",
+    TotalBets: "800",
+    RoyalWins: "400",
+  },
+  {
+    rank: "3",
+    name: "Alice Doe",
+    TotalBets: "600",
+    RoyalWins: "300",
+  },
+  {
+    rank: "4",
+    name: "Bob Doe",
+    TotalBets: "400",
+    RoyalWins: "200",
+  },
+  {
+    rank: "5",
+    name: "Bob Doe",
+    TotalBets: "400",
+    RoyalWins: "200",
+  },
+  {
+    rank: "6",
+    name: "Bob Doe",
+    TotalBets: "400",
+    RoyalWins: "200",
+  },
+  {
+    rank: "7",
+    name: "Bob Doe",
+    TotalBets: "400",
+    RoyalWins: "200",
+  },
+  {
+    rank: "8",
+    name: "Bob Doe",
+    TotalBets: "400",
+    RoyalWins: "200",
+  },
+  {
+    rank: "9",
+    name: "Bob Doe",
+    TotalBets: "400",
+    RoyalWins: "200",
+  },
+  {
+    rank: "10",
+    name: "Bob Doe",
+    TotalBets: "400",
+    RoyalWins: "200",
+  },
+];
+export const harupGameTableData = {
+  royalGameName: "Harup Game",
+  tableData: [
+    {
+      gameName: "Game Name",
+      betAmount: "Bet Amount",
+      betNumber: "Bet Number",
+      time: "Time",
+      date: "Date",
+      rewards: "Rewards",
+    },
+    {
+      gameName: "GHAZIABAD",
+      betAmount: "40",
+      betNumber: "30",
+      time: "11:30 PM",
+      date: "Apr 14 2024",
+      rewards: "No",
+    },
+    {
+      gameName: "TAJ",
+      betAmount: "20",
+      betNumber: "12",
+      time: "12:30 PM",
+      date: "Apr 16 2024",
+      rewards: "No",
+    },
+    {
+      gameName: "DESHAWER",
+      betAmount: "30",
+      betNumber: "15",
+      time: "1:30 PM",
+      date: "Apr 13 2024",
+      rewards: "No",
+    },
+  ],
+};
+export const jodiGameTableData = {
+  royalGameName: "Jodi Game",
+  tableData: [
+    {
+      gameName: "Game Name",
+      betAmount: "Bet Amount",
+      betNumber: "Bet Number",
+      time: "Time",
+      date: "Date",
+      rewards: "Rewards",
+    },
+    {
+      gameName: "GHAZIABAD",
+      betAmount: "40",
+      betNumber: "30",
+      time: "11:30 PM",
+      date: "Apr 14 2024",
+      rewards: "No",
+    },
+    {
+      gameName: "TAJ",
+      betAmount: "20",
+      betNumber: "12",
+      time: "12:30 PM",
+      date: "Apr 16 2024",
+      rewards: "Yes",
+    },
+    {
+      gameName: "DESHAWER",
+      betAmount: "30",
+      betNumber: "15",
+      time: "1:30 PM",
+      date: "Apr 13 2024",
+      rewards: "No",
+    },
+  ],
+};
